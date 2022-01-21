@@ -2,28 +2,55 @@
 
 Here are the technologies used in this project.
  
-* Ruby version  x.x.x
-* Rails version x.x.x
-* ...
+
+* JavaScript
+* Html5
+* CSS3
+---
+under development
+* NodeJs v16.13.1
+* npm v8.1.2
+* Browser-sync
+* GIMP v2.0
  
  
 ## Services Used
  
 * Github
-* ...
  
- 
-## Ruby Gems
-...
+<!-- ## Ruby Gems
+... -->
  
 ## Getting started
  
-* To install gems:
->    $ bundle install
-* To create the bank and do as migrations:
->    $ rake db:create db:migrate db:seed
+* To Download:
+
+>	Ubuntu, Debian, Mint, others:
+	  ```
+	 	 sudo apt-get install wget
+	  ```
+	  
+>	Fedora, CentOS:
+	```
+		dnf install wget
+	```
+
+	```
+		yum install wget
+	```
+
+>	openSUSE:
+	```
+		zypper install wget
+	```
+
+>	Depois de instalar, digite no terminal:
+	```
+		wget https://github.com/ysh-rael/input-range/archive/refs/heads/main.zip
+	```
+
 * To run the project:
->    $ rails s
+>    [click here](https://github.com/ysh-rael/input-range/)
  
 ## How to use
  
