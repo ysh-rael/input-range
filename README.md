@@ -58,16 +58,16 @@ Here will be the images and descriptions. Principal content.
  
 ## Features
  
-  - Video control bar with features of:
-* play
-* pause
-* video timer
-* progress bar control.
-  - Local video and image hosting
-  - Favicon and logo
-  - Responsive:
-* Mobile ✔️
-* Desktop ✔️
+ * Video control bar with features of:
+	-play
+	-pause
+	-video timer
+	-progress bar control.
+ * Local video and image hosting
+ * Favicon and logo
+ * Responsive:
+	-Mobile ✔️
+	-Desktop ✔️
  
  
 ## Links
