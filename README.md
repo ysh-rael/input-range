@@ -33,7 +33,7 @@ under development
 >	Fedora, CentOS:<br>
 	```
 		dnf install wget
-	```
+	```<br>
 	```
 		yum install wget
 	```
@@ -59,24 +59,21 @@ Here will be the images and descriptions. Principal content.
 ## Features
  
  * Video control bar with features of:
-	-play
-	-pause
-	-video timer
-	-progress bar control.
+	- play
+	- pause
+	- video timer
+	- progress bar control.
  * Local video and image hosting
  * Favicon and logo
  * Responsive:
-	-Mobile ✔️
-	-Desktop ✔️
+	- Mobile ✔️
+	- Desktop ✔️
  
  
 ## Links
  
   - Link of deployed application: https://ysh-rael.github.io/input-range/
   - Repository: https://github.com/ysh-rael/input-range/
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      YOUR EMAIL directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
  
  
 ## Versioning
