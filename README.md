@@ -25,30 +25,25 @@ under development
  
 * To Download:
 
->	Ubuntu, Debian, Mint, others:
-
+>	Ubuntu, Debian, Mint, others:<br>
 	  ```
 	 	 sudo apt-get install wget
 	  ```
 
->	Fedora, CentOS:
-
+>	Fedora, CentOS:<br>
 	```
 		dnf install wget
 	```
-
 	```
 		yum install wget
 	```
 
->	openSUSE:
-
+>	openSUSE:<br>
 	```
 		zypper install wget
 	```
 
->	Depois de instalar, digite no terminal:
-
+>	Depois de instalar, digite no terminal:<br>
 	```
 		wget https://github.com/ysh-rael/input-range/archive/refs/heads/main.zip
 	```
@@ -63,16 +58,16 @@ Here will be the images and descriptions. Principal content.
  
 ## Features
  
-  -Video control bar with features of:
-	*	play
-	*	pause
-	*	video timer
-	*	progress bar control.
-  -Local video and image hosting
-  -Favicon and logo
-  -Responsive:
-	*	Mobile ✔️
-	*	Desktop ✔️
+  - Video control bar with features of:
+* play
+* pause
+* video timer
+* progress bar control.
+  - Local video and image hosting
+  - Favicon and logo
+  - Responsive:
+* Mobile ✔️
+* Desktop ✔️
  
  
 ## Links
