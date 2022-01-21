@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>input range</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Raleway:ital,wght@0,300;1,200&display=swap');
+		body {
+			font-family: 'Assistant', sans-serif;
+			background-color: rgb(175,175,175);
+		}
+		main {
+			min-width: 350px;
+			max-width: 820px;
+			border-radius: 10px;
+			margin: auto;
+
+			background-color: #CBD3E1;
+			box-shadow: 1px 1px 15px rgba(0,0,0, 0.3);
+		}
+		section {
+			display: flex;
+			width: 100%;
+			height: 100%;
+			margin: auto;
+
+			background-image: linear-gradient(to top,
+				#50453f 5%,
+				#8A7862, #9A836A);
+		}
+
+		footer > div{
+			width: 50%;
+			max-width: 300px;
+			display: flex;
+			margin: 30px auto 10px auto;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		footer > p {
+			text-align: center;
+			margin-bottom: 15px;
+		}
+
+		video {
+			position: relative;
+			width: 80%;
+			margin: auto;
+		}
+
+		div#controle {
+			display: flex;
+			position: relative;
+			margin: -1.2em auto 0 auto;	
+			width: 80%;
+			opacity: 0;
+			transition-duration: 7s;
+
+			color: white;
+			background-color: rgba(0,0,0, 0.6);
+			box-shadow: 1px 1px 4px rgba(0,0,0, 0.3)
+		}
+
+		div#controle:hover {
+			transition-duration: 50ms;
+			opacity: 1;
+		}
+
+		span[wm-temporizador="meuVideo"] {
+			margin: auto 10px;
+			font-size: 0.8rem
+		}
+
+		h1 {
+			text-indent: 20px;
+			padding: 33px 20px 10px 20px;
+			font-size: 1.4em;
+			font-weight: bold;
+			text-decoration: underline;
+
+			text-shadow: 1px 1px 3px rgba(0,0,0, 0.4);
+		}
+		h2 {
+			text-indent: 20px;
+			padding: 10px 20px 10px 20px;
+			font-size: 1.3em;
+			font-weight: 200;
+		}
+		button {
+			border: none;
+
+			background: transparent;
+		}
+
+
+
+
+
+
+
+
+
+
+
+		input[type=range] {
+			-webkit-appearance:none;
+			appearance: none;
+			margin-left: 0;
+
+			background-color: rgb(190,190,190);
+			height: 1em;
+			width: 100%;
+			opacity: 0.6;
+
+		}
+		input[type=range]:hover { opacity: 1 }
+		input[type=range]::-webkit-slider-thumb:hover {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 15px;
+			height: 15px;
+			background: gray;
+			opacity: 1;
+			transition-duration: 400ms;
+		}
+		input[type=range]::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			appearance: none;
+			width: 20px;
+			height: 20px;
+			opacity: 0;
+			transition-duration: 400ms;
+		}
+/*		input[type=range]::-moz-range-thumb {
+			background: yellow;
+		}*/
+
+
+	</style>
+</head>
+<body>
+	<main>
+		<h1>input  range</h1>
+		<h2>Criação de barra de controle de vídeo com funcionalidades de play, pause e controle da barra de processo. </h2>
+		
+		<section>
+			<video src="video.mp4" id="meuVideo" title="Vídeo de Kelly L no Pexels">
+		
+	</section>
+	<div id="controle">
+		<button wm-playPause="meuVideo"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="15" height="15"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M34.4,17.2c-3.16643,0 -5.73333,2.5669 -5.73333,5.73333c-0.00001,0.00747 -0.00001,0.01493 0,0.0224v63.04427v63.04427c-0.00001,0.00746 -0.00001,0.01493 0,0.02239c0,3.16643 2.5669,5.73333 5.73333,5.73333c1.19346,-0.00345 2.3561,-0.37925 3.32578,-1.075l0.0112,0.0112l113.71485,-62.52917c2.03773,-0.93223 3.34559,-2.96619 3.34817,-5.20703c0.00115,-2.30642 -1.37987,-4.38898 -3.50495,-5.28542l-113.55807,-62.45078h-0.0112c-0.97102,-0.69177 -2.13354,-1.06362 -3.32578,-1.0638z"></path></g></g></svg></button>
+		<span wm-temporizador="meuVideo">1:10/1:50</span>
+		<input type="range" wm-progresso="meuVideo"
+		min="0" max="100"
+		step="1"
+		value="0">
+			<span>
+		</span>
+	</div>
+			
+		
+	<footer>
+		<div>
+			<a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="redireciona para github"></a>
+		<a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="redireciona para linkedin"></a>
+		<a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/send-mass-email.png" alt="me envie um email"></a>
+		</div>
+		<p>&copy Yshrael Pimentel</p>
+	</footer>
+	</main>
+
+<script type="text/javascript">
+	function controlarVideo(id) {
+		const video = document.getElementById(id)
+		const playPause = document.querySelector(`[wm-playPause=${id}]`)
+		let p_p = 0
+
+		playPause.onclick = () => {
+			if (p_p == 0) {
+				video.play()
+				playPause.innerHTML = `<img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/15/000000/external-pause-music-dreamstale-lineal-dreamstale-2.png"/>`
+				p_p = 1
+			} else {
+				video.pause()
+				playPause.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="15" height="15"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M34.4,17.2c-3.16643,0 -5.73333,2.5669 -5.73333,5.73333c-0.00001,0.00747 -0.00001,0.01493 0,0.0224v63.04427v63.04427c-0.00001,0.00746 -0.00001,0.01493 0,0.02239c0,3.16643 2.5669,5.73333 5.73333,5.73333c1.19346,-0.00345 2.3561,-0.37925 3.32578,-1.075l0.0112,0.0112l113.71485,-62.52917c2.03773,-0.93223 3.34559,-2.96619 3.34817,-5.20703c0.00115,-2.30642 -1.37987,-4.38898 -3.50495,-5.28542l-113.55807,-62.45078h-0.0112c-0.97102,-0.69177 -2.13354,-1.06362 -3.32578,-1.0638z"></path></g></g></svg>`
+				p_p = 0
+			}
+		}
+	const barraProcesso= document.querySelector(`[wm-progresso=${id}]`)
+	const temporizador = document.querySelector(`[wm-temporizador=${id}`)
+
+
+
+	
+	const currentTime = (video.currentTime/100).toFixed(2)
+	const duracao = (video.duration/100).toFixed(2)
+// não passe! estamos em obra embaixo!
+	barraProcesso.oninput = function() {
+   var rMin = this.min;
+   var rMax = this.max;
+   var rStep = this.step;
+   var prop = (rMax-rMin)/rStep; // calcula o número de steps
+   var perc = 100*((this.value-rMin)/rStep)/prop; 
+   
+   // aplica o background
+   this.style.background = 'linear-gradient(to right, yellow 0%, yellow '+ perc +'%, darkgray '+ perc +'%, darkgray 100%)';
+}
+// não passe! estamos em obra acima!
+
+	 setInterval(() => {
+		const baPro = ((barraProcesso.value/100)*((video.duration/100).toFixed(2))).toFixed(2)
+		const currentTime = (video.currentTime/100).toFixed(2)
+		const duracao = (video.duration/100).toFixed(2)
+		const percentual = (video.currentTime/ video.duration) * 100
+		const a = ((baPro/duracao)*100)
+		barraProcesso.value = percentual
+
+
+		barraProcesso.style.background = `linear-gradient(to right, yellow 0%, yellow 0% , yellow ${a}%, darkgray ${a}%, darkgray 100%)`;
+		temporizador.innerHTML = `${currentTime}/${duracao}`
+
+	},1000)
+}
+
+
+	controlarVideo("meuVideo")
+
+</script>
+</body>
+</html>
