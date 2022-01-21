@@ -6,7 +6,7 @@ Here are the technologies used in this project.
 * JavaScript
 * Html5
 * CSS3
----
+
 under development
 * NodeJs v16.13.1
 * npm v8.1.2
@@ -43,7 +43,7 @@ under development
 		zypper install wget
 	```
 
->	Depois de instalar, digite no terminal:<br>
+>	after installing:<br>
 	```
 		wget https://github.com/ysh-rael/input-range/archive/refs/heads/main.zip
 	```
