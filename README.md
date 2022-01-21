@@ -26,11 +26,13 @@ under development
 * To Download:
 
 >	Ubuntu, Debian, Mint, others:
+
 	  ```
 	 	 sudo apt-get install wget
 	  ```
-	  
+
 >	Fedora, CentOS:
+
 	```
 		dnf install wget
 	```
@@ -40,17 +42,19 @@ under development
 	```
 
 >	openSUSE:
+
 	```
 		zypper install wget
 	```
 
 >	Depois de instalar, digite no terminal:
+
 	```
 		wget https://github.com/ysh-rael/input-range/archive/refs/heads/main.zip
 	```
 
 * To run the project:
->    [click here](https://github.com/ysh-rael/input-range/)
+>    [click here](https://ysh-rael.github.io/input-range/)
  
 ## How to use
  
@@ -59,12 +63,21 @@ Here will be the images and descriptions. Principal content.
  
 ## Features
  
-  - Here will be the features.
+  -Video control bar with features of:
+	*	play
+	*	pause
+	*	video timer
+	*	progress bar control.
+  -Local video and image hosting
+  -Favicon and logo
+  -Responsive:
+	*	Mobile ✔️
+	*	Desktop ✔️
  
  
 ## Links
  
-  - Link of deployed application: (if has been deployed)
+  - Link of deployed application: https://ysh-rael.github.io/input-range/
   - Repository: https://github.com/ysh-rael/input-range/
     - In case of sensitive bugs like security vulnerabilities, please contact
       YOUR EMAIL directly instead of using issue tracker. We value your effort
