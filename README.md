@@ -59,7 +59,9 @@ in addition to pausing and playing, an input range was used to visually follow t
 The same button is used to pause and play the video, changing, in addition to its functionality, the icon and verifying that autoplay is activated to suit it.<br>
 
 
-<video src="https://user-images.githubusercontent.com/79410863/150476081-9c352d80-7fb8-4925-a3f6-c5729a4dba10.mp4" width= "500"><br>
+![gif Input Range](https://j.gifs.com/MZN4O3.gif)<br>
+
+[//]: # "https://gifs.com/gif/inputrange2-1-MZN4O3 ---> link do gif otimizado alternativo"
 	
 	
 The bar is hidden, being visible when the mouse cursor is over it and, after a few seconds, it starts to disappear with a transition effect.<br>
